@@ -20,6 +20,9 @@ class OperatorsArithmetic {
 		double tempF = celsius2Fahrenheit(26.0);
 		
 		System.out.println("fahrenheit:" + tempF);
+		
+		double tempC =fahrenheit2Celsius(tempF);
+		System.out.println("fahrenheit: " + tempF +"--> celsius:" + tempC);
 
 	}
 	
@@ -29,5 +32,10 @@ class OperatorsArithmetic {
 		return fahrenheit; 
 		
 	}
+	public static double fahrenheit2Celsius(double fahrenheit) {
+		double celsius =(fahrenheit -32)/ (9.0/5);
+		return celsius; 
+	}
+	}
 
-}
+
