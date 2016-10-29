@@ -13,7 +13,6 @@ public class Uebung2_2910 {
 	}
 	}
 	
-	
 		public static boolean isMetropolis(	boolean isCapital, 
 											int inhabitans, 
 											double taxPerPersonAndMonth)
@@ -29,7 +28,6 @@ public class Uebung2_2910 {
 			}
 	}
 		
-
 //		boolean resultA = capital && inhabitans > 100_000;
 //		boolean resultB = taxes > 720_000_000 && inhabitans > 200_000;
 //		return resultA || resultB;	
