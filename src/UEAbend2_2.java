@@ -6,7 +6,7 @@ public class UEAbend2_2 {
 		
 		int[] numbers = {7,8,12,13,27};
 		
-		printArray(numbers(result));
+		printArray(reverse(numbers));
 	}
 	
 	public static void printArray (int[] arr){
@@ -15,7 +15,7 @@ public class UEAbend2_2 {
 		}
 	}
 	
-	public static int reverse(int orig[]){
+	public static int[] reverse(int orig[]){
 		int[] result = new int[orig.length];
 		for(int i=0; i < result.length; i++) {
 		result[result.length-1-i] = orig[i];	

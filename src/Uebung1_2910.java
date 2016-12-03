@@ -1,5 +1,5 @@
 
-public class Uebung2910 {
+public class Uebung1_2910 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
