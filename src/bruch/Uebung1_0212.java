@@ -7,7 +7,7 @@ public class Uebung1_0212 {
 	private int nenner; 
 	private int zaehler; 
 	
-public double Bruch (int zaehler, int nenner) 
+public double Bruch(int zaehler, int nenner) 
 {this.zaehler = zaehler; 
  this.nenner = nenner; 
 }
